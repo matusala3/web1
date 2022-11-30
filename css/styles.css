@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+section{
+    text-align: center;
+}
+
+#col{
+    background-color: #121212;
+    color: #fff;
+    padding-top: 3%;
+}
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+#i-1{
+    margin: 0 7px;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.container{
+    padding: 0;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.btn{
+    margin-top: 5%;
+}
+
+.btn-outline-light{
+    margin-left: 3%;
+}
+
+.mt{
+    margin-top: 32px;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.image-title{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    position: relative;
+}
+
+.feature-h3{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#i-2{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+#i-2:hover{
+    color: #ff4c68;
+}
+
+#feature{
+    padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials{
+    background-color: #ef8172;
+}
+
+.test-text{
+    font-size: 2.7rem;
+    
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.price-heading{
+    font-size: 2.7rem;
+}
+
+.price-text{
+    font-size: 2.7rem;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.cta-h3{
+    color: #fff;
+}
+
+.icon{
+    margin: 20px 10px;
+    font-size: 25px;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .image-title{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (min-width: 360px) and (max-width: 600px){
+    h1{
+        font-size: 50px;
+    }
+}
